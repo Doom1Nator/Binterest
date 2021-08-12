@@ -1,0 +1,148 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    margin: 0 auto;
+}
+
+.App-header {
+    background-color: #282c34;
+    height: 150px;
+    padding: 20px;
+    color: #222;
+    position: relative;
+    text-align: center;
+}
+
+.App-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.App-link {
+    padding: 0.4rem 0.8rem;
+    background-color: white;
+    border-radius: 3px;
+    color: #28547a;
+    text-decoration: none !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.App-link:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+input, select {
+    padding: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #28547a;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+    margin: 0 auto 20px;
+}
+
+.cancel-button {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.add-button {
+    position: relative;
+    bottom: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.button {
+    padding: 0.4rem .8rem;
+    background-color: #db3939;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto Mono;
+}
+
+.upload-button {
+    font-size: 20px;
+    width: 600px;
+}
+
+.delete-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    bottom: 5px;
+    padding: 0.4rem .8rem;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #565656;
+}
+
+.delete-button:hover{
+    color: rgb(172, 10, 10);
+}
+
+.upload-div {
+    text-align: center;
+}
+
+.button:hover {
+    padding: 0.4rem .8rem;
+    background-color: #2e4b85;
+    color: rgb(61, 189, 114);
+}
+
+.form {
+    text-align: center;
+    font-size: 40px;
+}
+
+input {
+    line-height: 40px;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+}
+
+.textarea-url {
+    width: 1500px;
+    height: 100px;
+    resize: none;
+    font-size: 30px;
+}
+
+.textarea-description {
+    width: 1500px;
+    height: 100px;
+    resize: none;
+    font-size: 30px;
+}
+
+.loading {
+    font-size: 40px;
+}
